@@ -11,3 +11,28 @@
 ul {
   list-style: none;
 }
+
+li.user-result {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 25rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+li.repo-result {
+  width: 25rem;
+  margin-bottom: 2rem;
+  box-shadow: 2px 2px 3px 2px hsl(0deg 0% 59% / 32%);
+  padding: 1rem;
+  box-sizing: border-box;
+}
+li.repo-result > h3 {
+  margin-top: 0;
+}
+
+.avatar {
+  border-radius: 50%;
+  max-width: 5rem;
+}
